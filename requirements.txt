@@ -1,0 +1,13 @@
+langchain
+numpy 
+streamlit 
+PyPDF2 
+python-dotenv
+langchain-community
+openai
+chromadb==0.3.29
+numpy
+pandas
+# streamlit_chromadb_connection
+pysqlite3-binary
+tiktoken
