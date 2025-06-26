@@ -54,8 +54,8 @@ def get_css():
       width: 20%;
     }
     .chat-message .avatar img {
-      max-width: 78px;
-      max-height: 78px;
+      max-width: 32px;
+      max-height: 32px;
       border-radius: 50%;
       object-fit: cover;
     }

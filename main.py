@@ -10,14 +10,13 @@ from langchain_community.embeddings import OpenAIEmbeddings
 from langchain.memory import ConversationBufferMemory
 from utils.helpers import load_web_templates, initialize_session_state
 from langchain_community.llms import OpenAI
-
 bot_template, user_template = get_templates()
 css = get_css()
 
 PDF_PATHS = [
-    'Documents/database-security-guide.pdf',
-    'Documents/advanced-security-guide.pdf',
-    'Documents/enterprise-user-security-administrators-guide.pdf'
+    # 'Documents/database-security-guide.pdf',
+    # 'Documents/advanced-security-guide.pdf',
+    # 'Documents/enterprise-user-security-administrators-guide.pdf'
 ]
 
 PDF_SOURCES = {
